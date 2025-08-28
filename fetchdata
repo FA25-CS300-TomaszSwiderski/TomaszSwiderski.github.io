@@ -13,8 +13,6 @@ async function fetchProducts() {
   console.log("Products:", data);
   return data;
 }
-
-
 // Example: filter users by age > 30
 async function getOlderUsers() {
   const users = await fetchUsers();
